@@ -18,32 +18,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class CustomKeyword {
+public class NewKeyword {
 
 	@Keyword
 
-	def hello (){
+	def hello user() {
 
-		print("Hello world...")
-	}
-
-	@Keyword
-
-	def login() {
-
-		WebUI.openBrowser(null)
-
-		WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-
-		WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_username'), 'Admin')
-
-		WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
-	}
-
-	@Keyword
-
-	def hellouser(String user) {
-
-		println ("Hello" +user)
+		println ("Hello user")
 	}
 }

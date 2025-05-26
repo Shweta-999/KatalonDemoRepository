@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Demo</name>
+   <name>ManualmodeTestcase</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>2ef89eb0-3141-4787-b6c6-b703d37391fb</testCaseGuid>
+   <testCaseGuid>450058ea-db92-4d07-a415-763f5fcdc787</testCaseGuid>
 </TestCaseEntity>
